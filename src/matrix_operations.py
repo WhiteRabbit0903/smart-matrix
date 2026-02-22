@@ -9,3 +9,20 @@ def multiply_matrix(a, b):
             row.append(sum_value)
         result.append(row)
     return result
+
+
+if __name__ == "__main__":
+    A = [[1, 2],
+         [3, 4]]
+
+    B = [[2, 0],
+         [1, 2]]
+
+    print("Matrix A:")
+    print(A)
+
+    print("\nMatrix B:")
+    print(B)
+
+    print("\nResult A x B:")
+    print(multiply_matrix(A, B))
